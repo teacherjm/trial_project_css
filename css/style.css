@@ -1,0 +1,164 @@
+* {
+  font-size: 22px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image:linear-gradient(rgba(0,0,0,0.690), rgba(0,0,0,0.690)), url(../images/background.jpg); 
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+header {
+  width: 100%;
+  margin: 0px;
+}
+
+#index-header-image {
+  width: 100%;
+  z-index: -1;
+}
+
+.navigation-li {
+  float: left;
+  list-style-type: none;
+}
+
+#navigation-ul {
+  margin-top: -6%;
+}
+
+.header-nav {
+  float: right;
+  position: relative;
+  z-index: 3;
+}
+
+.header-navigation-a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  padding: 4px;
+  color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 22px;
+  font-size: 80%;
+  padding-top: 1000 px;
+  max-width: 300px;
+  text-align: center;
+  z-index: 3;
+}
+
+.header-navigation-a:hover {
+  color: black;
+  font-size: 21px;
+  font-style: bold;
+}
+
+/* Create three equal columns that floats next to each other */
+section {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#index-center-video {
+  margin: auto;
+  padding: 1%;
+}
+
+#index-section-center {
+  margin-top: -70px;
+}
+
+h1 {
+  font-size: 180%;
+}
+
+#index-left-header {
+  color: #5271ff;
+  font-family: helvetica;
+  width: 60%;
+  margin-left: 5%;
+  padding: -10px 5px 5px 0px ;
+  text-align: justify;
+  position: relative;
+  top: 100px;
+}
+
+#index-left-article {
+  color: #5271ff;
+  font-family: helvetica;
+  margin-left: 5%;
+  margin-right: 15%;
+  width: 60%;
+  text-indent: 4%;
+  text-align: justify;
+  position: relative;
+  top: 100px;
+}
+
+#header-quote {
+  margin-top: -30px;
+  text-align: justify;
+}
+
+#index-right-video {
+  margin-left: 2%;
+  position: relative;
+  top: 170px;
+}
+
+a {
+  color:#5271ff;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#links {
+  list-style-type: none;
+  position: relative;
+  top: 130px;
+}
+
+footer{
+  color: #5271ff;
+  margin-left: 5%;
+  position: relative;
+  top: 260px;
+}
+
+#images {
+  float: left;
+  clear: left;
+}
+
+#photo {
+  padding-bottom: 10%;
+}
+
+#links_two {
+  list-style-type: none;
+  float: right;
+  clear: right;
+}
+
+#paragraph {
+  color: #5271ff;
+}
+
+#footer_history {
+  color: #5271ff;
+  margin-left: 5%;
+  position: relative;
+  top: 260px;
+}
