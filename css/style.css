@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image:linear-gradient(rgba(0,0,0,0.690), rgba(0,0,0,0.690)), url(../images/background.jpg); 
+  background-image:linear-gradient(rgba(0,0,0,0.690), rgba(0,0,0,0.690)), url(https://teacherjm.github.io/trial_project_css/images/background.jpg); 
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
